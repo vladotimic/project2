@@ -1,0 +1,442 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: rgba(211, 249, 255, 0.35); /* Background Color Of Header */
+  border-bottom: 7px solid rgb(20, 223, 255); /* Border-Bottom Of Header */
+}
+
+header h1 {
+  font-size: 45px;
+}
+
+span.special {
+  color: rgb(24, 108, 122); /* Span Special Color */
+}
+
+header ul {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+header li {
+  display: inline;
+  margin-right: 8px;
+}
+
+header button {
+  border: none;
+  background: transparent;
+  width: 11%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+header button.current {
+  background: rgb(24, 108, 122);
+}
+
+header button:hover {
+  background: rgb(0, 218, 255);
+}
+
+header a:hover, header a.current:hover {
+  color: rgb(0, 52, 61);
+}
+
+header a.current {
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(24, 108, 122);
+  letter-spacing: 1px;
+}
+
+/* Welcome Section */
+#welcome {
+  height: 600px;
+  background: url("../images/showcase.jpg") no-repeat center center;
+  background-size: cover;
+  border-bottom: 7px solid rgb(20, 223, 255);
+}
+
+#welcome #d-welcome {
+  border-radius: 100px;
+  background: rgba(0, 34, 40, 0.8);
+  color: rgb(239, 252, 255);
+  width: 70%;
+  margin: 200px auto;
+}
+
+#d-welcome h1 {
+  padding: 25px 10px 0 10px;
+  font-size: 65px;
+}
+
+#d-welcome p {
+  padding: 0 10px 25px 10px;
+  font-size: 20px;
+}
+
+/* Features Section */
+#features {
+  color: rgb(0, 82, 102); /* Features Color of Fonts */
+}
+
+#features .f-f p, #features .d-f p {
+  font-size: 18px;
+}
+
+#features .d-ft, #features .d-f {
+  margin-top: 25px;
+}
+
+#features i.fa {
+  color: rgb(6, 197, 204);
+  font-size: 90px;
+}
+
+#features .f-f {
+  margin-top: 80px;
+}
+
+.d-ft h1 {
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+
+.d-ft p {
+  font-size: 21px;
+}
+
+/* Core */
+#core {
+  background: url("../images/info-bg.jpg");
+  margin-top: 50px;
+  color: rgb(239, 252, 255);
+  border-bottom: 5px solid rgb(20, 223, 255);
+  border-top: 5px solid rgb(20, 223, 255);
+}
+
+#core .d-core {
+  margin: 45px 0 0 0;
+}
+
+#core h1 {
+  font-size: 45px;
+}
+
+#core p {
+  font-size: 18px;
+}
+
+/* Contact Section Global */
+#contact {
+  background: rgb(0, 42, 48);
+  color: rgb(239, 252, 255);
+  height: 220px;
+}
+
+#contact h1 {
+  font-size: 30px;
+}
+
+#contact p {
+  width: 80%;
+  margin: auto;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact form input, #contact form button {
+  margin-top: 10px;
+  border: none;
+  height: 25px;
+  width: 75%;
+}
+
+#contact form button {
+  background: rgb(6, 197, 204);
+  color: rgb(11, 51, 61);
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: 5px 0;
+}
+
+/* About Us Section / about.html */
+.heading h1 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+#about-us .who {
+  margin-bottom: 25px;
+}
+
+#about-us .who h1 {
+  font-size: 30px;
+}
+
+#about-us .who p {
+  text-align: justify;
+  text-indent: 35px;
+  font-size: 18px;
+}
+
+#about-us .p-2 {
+  padding-bottom: 20px;
+}
+
+#about-us hr {
+  border: 3px solid rgba(0,0,0,0.4);
+}
+
+/* Services Page */
+#services .offer h1 {
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+#services .serv h1 {
+  font-size: 25px;
+}
+
+#services .serv p {
+  text-indent: 35px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+#services div.serv:nth-child(even) {
+  background: rgb(0, 35, 45);
+  color: white;
+}
+
+#services div.serv:nth-child(odd) {
+  background: rgb(0, 193, 177);
+  color: rgb(25, 40, 40);
+}
+
+#services .serv-1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#services .serv-2 {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 50px;
+}
+
+/* Contact Us Page */
+#contact-us .get-in-touch h1 {
+  font-size: 30px;
+}
+
+#contact-us .get-in-touch p {
+  font-size: 18px;
+}
+
+#contact-us form {
+  border: none;
+  border-radius: 15px;
+  background: rgb(0, 48, 61);
+  color: white;
+  height: 75%;
+  width: 50%;
+  margin: 20px auto 90px auto;
+  padding: 20px 0 0 0;
+}
+
+#contact-us form input, #contact-us form textarea {
+  width: 70%;
+  margin-bottom: 15px;
+  border: none;
+}
+
+#contact-us form input {
+  height: 30px;
+}
+
+#contact-us form button {
+  border: none;
+  font-size: 20px;
+  width: 30%;
+  height: 30px;
+  color: rgb(5, 41, 51);
+  background: rgb(5, 201, 255);
+}
+
+#contact-us form button:hover {
+  color: rgb(5, 41, 51);
+  background: rgb(8, 211, 198);
+}
+
+/* Footer */
+footer {
+  background: rgb(22, 36, 38);
+  color: rgb(239, 252, 255);
+  font-size: 18px;
+  border-top: 2px solid rgb(0, 0, 0);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) and (min-width: 290px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header li {
+    display: block;
+    padding-top: 5px;
+  }
+
+  header button {
+    border: none;
+    background: transparent;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  header ul {
+    margin-top: 5px;
+  }
+
+  #welcome #d-welcome {
+    width: 80%;
+  }
+
+  #d-welcome h1 {
+    font-size: 35px;
+  }
+
+  #d-welcome p {
+    font-size: 17px;
+  }
+
+  #features .f-f {
+    margin-top: 25px;
+  }
+
+  #features .f-f p, #features .d-f p {
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+  }
+
+  #core .d-core {
+    margin: 0 0 20px 0;
+  }
+
+  #contact {
+    height: 520px;
+  }
+
+  #about-us .who p {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10px;
+  }
+
+  .heading h1 {
+    text-align: center;
+  }
+
+  #services .serv p {
+    width: 95%;
+    margin: auto;
+  }
+
+  #contact-us form {
+    border: none;
+    border-radius: 15px;
+    background: rgb(0, 48, 61);
+    color: white;
+    height: 75%;
+    width: 90%;
+    margin: 40px auto 90px auto;
+    padding: 20px 0 0 0;
+  }
+
+  #contact-us form input, #contact-us form textarea {
+    width: 80%;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  #contact-us form button {
+    border: none;
+    font-size: 20px;
+    width: 35%;
+    height: 30px;
+    color: rgb(5, 41, 51);
+    background: rgb(5, 201, 255);
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 757px) {
+  header li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  header button {
+    border: none;
+    background: transparent;
+    width: 15%;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  header ul {
+    margin-top: 45px;
+  }
+
+  header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(24, 108, 122);
+    letter-spacing: 1px;
+  }
+
+  #welcome #d-welcome {
+    width: 90%;
+  }
+
+  #d-welcome h1 {
+    font-size: 55px;
+  }
+
+  #d-welcome p {
+    font-size: 18.5px;
+  }
+
+  #features .f-f {
+    margin-top: 25px;
+  }
+
+  #contact {
+    height: 520px;
+  }
+}
